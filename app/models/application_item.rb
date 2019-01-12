@@ -1,2 +1,3 @@
-class ApplicationItem < Dynomite::Item
+class ApplicationItem
+  include Dynamoid::Document
 end

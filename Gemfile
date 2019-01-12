@@ -1,11 +1,10 @@
 source "https://rubygems.org"
 
-gem "jets"
-
+gem "jets", '~> 1.5.1'
 
 # Include mysql2 gem if you are using ActiveRecord, remove if you are not
-gem "mysql2", "~> 0.5.2"
-
+# gem "mysql2", "~> 0.5.2"
+gem 'dynamoid', '~> 3.1.0'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
